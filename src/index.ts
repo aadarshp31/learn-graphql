@@ -2,10 +2,10 @@ import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
 
 // data db
-import db from "./data/_db";
+import db from "./data/_db.js";
 
 // type definitions
-import { typeDefs } from "./schema";
+import { typeDefs } from "./schema.js";
 
 const resolvers = {
     Query: {

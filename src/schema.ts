@@ -1,7 +1,7 @@
 export const typeDefs = `#graphql
  type Game {
     id: ID!,
-    title: string!,
+    title: String!,
     platform: [String!]!
  },
  type Review {
