@@ -1,13 +1,12 @@
 import { ApolloServer } from "@apollo/server";
 import { startStandaloneServer } from "@apollo/server/standalone";
 
+// type definitions
+import { typeDefs } from "./schema";
+
 // server setup
 const server = new ApolloServer({
-    typeDefs: `
-        type Query {
-            hello: String
-        }
-    `,
+    typeDefs,
     resolvers: {
         Query: {
             hello: () => 'world'
