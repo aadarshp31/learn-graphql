@@ -1,0 +1,30 @@
+{
+  "name": "learn-graphql",
+  "version": "1.0.0",
+  "description": "Contains projects used for learning Graphql",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc",
+    "start": "npm run compile && node ./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aadarshp31/learn-graphql.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aadarshp31/learn-graphql/issues"
+  },
+  "homepage": "https://github.com/aadarshp31/learn-graphql#readme",
+  "type": "module",
+  "dependencies": {
+    "@apollo/server": "^4.9.4",
+    "graphql": "^16.8.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.8",
+    "typescript": "^5.2.2"
+  }
+}
